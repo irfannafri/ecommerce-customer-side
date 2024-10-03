@@ -36,7 +36,7 @@ const Login = () => {
       if (response.ok) {
         const data = await response.json();
         dispatch(loginSuccess(data.token));
-        navigate("/home");
+        navigate("/");
         toast.success("Login successful!");
       } else {
         dispatch(loginFailure("Login gagal! Username atau password salah."));

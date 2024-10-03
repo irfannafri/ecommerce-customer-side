@@ -18,7 +18,7 @@ const MainLayout = () => {
       <div className="container mx-auto flex justify-between items-center px-6">
         <ul className="flex space-x-6">
           <li>
-            <Link to="/home" className="hover:text-gray-400">Home</Link>
+            <Link to="/" className="hover:text-gray-400">Home</Link>
           </li>
           {!isAuthenticated ? (
             <li>

@@ -26,7 +26,7 @@ const Cart = () => {
     } else {
       toast.success('Checkout successful!');
       dispatch(clearCart());
-      navigate('/home');
+      navigate('/');
     }
   };
 
