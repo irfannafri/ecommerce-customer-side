@@ -63,7 +63,7 @@ const Login = () => {
             </label>
             <input
               id="email"
-              type="email"
+              type="username" // change to email to enter a valid email type
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Masukkan email"
